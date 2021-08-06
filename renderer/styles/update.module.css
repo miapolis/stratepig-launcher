@@ -1,0 +1,9 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  background: #1b1b1bff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
