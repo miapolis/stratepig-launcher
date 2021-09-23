@@ -127,7 +127,7 @@ app.on("ready", async () => {
 
   ipcMain.on("startGame", async (_event: IpcMainEvent, _data: any) => {
     exec("./game/Build/Stratepig.exe");
-    quit();
+    mainWindow.close();
   });
 
   setInterval(async () => {
